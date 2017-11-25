@@ -7,8 +7,8 @@ Devultur_hc.cpp(492,1): warning C4996: 'clCreateCommandQueue': was declared depr
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
   Finished generating code
-  Devulturisation.vcxproj -> C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\x64\Debug\Devulturisation.exe
-c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(376): warning C6386: Buffer overrun while writing to 'a':  the writable size is 'cinfo.output_height*8' bytes, but '16' bytes might be written.
-c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(387): warning C6001: Using uninitialized memory '*a'.
-c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(402): warning C6262: Function uses '293612' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
-c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(431): warning C6385: Reading invalid data from 'platforms':  the readable size is 'platformIdCount*8' bytes, but '16' bytes may be read.
+  Devulturisation.vcxproj -> C:\Users\Savva\Source\Repos\Devulturisation\x64\Debug\Devulturisation.exe
+c:\users\savva\source\repos\devulturisation\devulturisation\devultur_hc.cpp(376): warning C6386: Buffer overrun while writing to 'a':  the writable size is 'cinfo.output_height*8' bytes, but '16' bytes might be written.
+c:\users\savva\source\repos\devulturisation\devulturisation\devultur_hc.cpp(387): warning C6001: Using uninitialized memory '*a'.
+c:\users\savva\source\repos\devulturisation\devulturisation\devultur_hc.cpp(402): warning C6262: Function uses '293612' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
+c:\users\savva\source\repos\devulturisation\devulturisation\devultur_hc.cpp(431): warning C6385: Reading invalid data from 'platforms':  the readable size is 'platformIdCount*8' bytes, but '16' bytes may be read.

@@ -497,7 +497,7 @@ int main() {
   int err6;
   if (INTELWEWANTDEBUG){
     //before using this, change path into your absolute path to .cl file
-    clBuildProgram(program, 0, NULL, "-g -s \"C:\\Users\\Savva\\Documents\\Visual Studio 2017\\Projects\\Devulturisation\\Devulturisation\\Devult_cl.cl\"", NULL, NULL);
+    clBuildProgram(program, 0, NULL, "-g -s \"C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl\"", NULL, NULL);
     err6 = clBuildProgram(program, 1, &device, "", NULL, NULL);
   }
   else
@@ -736,6 +736,6 @@ int main() {
   delete[] a;
   delete[] pich;
   delete[] resu;
-  ////std::cin.get();
+
   return 0;
 }

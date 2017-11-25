@@ -3,14 +3,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerAttach>false</LocalDebuggerAttach>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
-    <RemoteDebuggerCommand>C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\x64\Debug\Devulturisation.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommand>$(TargetPath)</RemoteDebuggerCommand>
     <RemoteDebuggerServerName>$(COMPUTERNAME)</RemoteDebuggerServerName>
     <RemoteDebuggerWorkingDirectory>$(ProjectDir)</RemoteDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerAttach>false</LocalDebuggerAttach>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
-    <RemoteDebuggerCommand>C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\x64\Debug\Devulturisation.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommand>$(TargetPath)</RemoteDebuggerCommand>
     <RemoteDebuggerServerName>$(COMPUTERNAME)</RemoteDebuggerServerName>
     <RemoteDebuggerWorkingDirectory>$(ProjectDir)</RemoteDebuggerWorkingDirectory>
   </PropertyGroup>
