@@ -1,0 +1,26 @@
+﻿cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+  Devultur_hc.cpp
+  referencecode.cpp
+  truerefsource.cpp
+truerefsource.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+truerefsource.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+truerefsource.cpp(308): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+truerefsource.cpp(466): warning C4018: '<': signed/unsigned mismatch
+truerefsource.cpp(366): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+truerefsource.cpp(386): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+truerefsource.cpp(407): warning C4101: 'buf1': unreferenced local variable
+truerefsource.cpp(408): warning C4101: 'q': unreferenced local variable
+truerefsource.cpp(407): warning C4101: 'buf2': unreferenced local variable
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  Devulturisation.vcxproj -> C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\Debug\Devulturisation.exe
+  Devulturisation.vcxproj -> C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\Debug\Devulturisation.pdb (Partial PDB)

@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>366</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(2) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>read_JPEG_file</FUNCTION>
+    <DECORATED>?read_JPEG_file@@YAHPEADPEAEPEAH222QEAM3@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>366</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(3) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>read_JPEG_file</FUNCTION>
+    <DECORATED>?read_JPEG_file@@YAHPEADPEAEPEAH222QEAM3@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'a':  the writable size is 'cinfo.output_height*8' bytes, but '16' bytes might be written.</DESCRIPTION>
+    <FUNCTION>read_JPEG_file</FUNCTION>
+    <DECORATED>?read_JPEG_file@@YAHPEADPEAEPEAH222QEAM3@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>317</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>335</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'a' is an array of 1 elements (8 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pich==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'a[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*a'.</DESCRIPTION>
+    <FUNCTION>read_JPEG_file</FUNCTION>
+    <DECORATED>?read_JPEG_file@@YAHPEADPEAEPEAH222QEAM3@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>317</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>335</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*a' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pich==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'y&lt;cinfo.output_height')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'z&lt;row_stride')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*a' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*a'.</DESCRIPTION>
+    <FUNCTION>read_JPEG_file</FUNCTION>
+    <DECORATED>?read_JPEG_file@@YAHPEADPEAEPEAH222QEAM3@Z</DECORATED>
+    <FUNCLINE>315</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>317</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>335</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*a' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pich==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'y&lt;cinfo.output_height')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'z&lt;row_stride')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*a' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6239</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; &amp;&amp; &lt;expression&gt;) always evaluates to the result of &lt;expression&gt;.  Did you intend to use the bitwise-and operator?</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>402</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>402</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '293612' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>402</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>427</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned int' passed as _Param_(2) when some signed type is required in call to 'printf'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>402</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+      <FILENAME>devultur_hc.cpp</FILENAME>
+      <LINE>431</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'platforms':  the readable size is 'platformIdCount*8' bytes, but '16' bytes may be read.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>402</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>406</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>410</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>412</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>414</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>415</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>418</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'platforms' is an array of 1 elements (8 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'platforms' is an In/Out argument to 'clGetPlatformIDs' (declared at c:\intel\opencl\sdk\include\cl\cl.h:662)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;platformIdCount')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>432</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>52</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'buffer[0]==73' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>437</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;platformIdCount')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'clGetPlatformInfo' (declared at c:\intel\opencl\sdk\include\cl\cl.h:667)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\</FILEPATH>
+        <FILENAME>devultur_hc.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'platforms[1]', (readable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

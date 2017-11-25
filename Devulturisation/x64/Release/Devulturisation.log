@@ -1,0 +1,19 @@
+﻿  Devultur_hc.cpp
+Devultur_hc.cpp(35,89): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Devultur_hc.cpp(42,87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Devultur_hc.cpp(492,1): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Intel\OpenCL\sdk\include\CL\cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+  referencecode.cpp
+  truerefsource.cpp
+  Compiling...
+  Generating Code...
+  Generating code
+  2 of 247 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Devulturisation.vcxproj -> C:\Users\Savva\Documents\Visual Studio 2017\Projects\Devulturisation\x64\Release\Devulturisation.exe
+c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(376): warning C6386: Buffer overrun while writing to 'a':  the writable size is 'cinfo.output_height*8' bytes, but '16' bytes might be written.
+c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(387): warning C6001: Using uninitialized memory '*a'.
+c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(402): warning C6262: Function uses '293612' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
+c:\users\savva\documents\visual studio 2017\projects\devulturisation\devulturisation\devultur_hc.cpp(431): warning C6385: Reading invalid data from 'platforms':  the readable size is 'platformIdCount*8' bytes, but '16' bytes may be read.
