@@ -1,4 +1,4 @@
-п»ї#define DCTSIZE		    8
+#define DCTSIZE		    8
 #define DCTSIZE2	    64
 #define LOSI          16
 
@@ -222,16 +222,16 @@ void jpeg_fdct_float(float *outptr, __local const float *input_buf, int input_st
 __kernel void devultur_most(const __global uchar* pic, __global ushort* res, const __global float *fquant, const __global float *iquant, int rsize, int offset)
 {
   uint l64 = get_local_id(0);
-  //Г±Г°ГҐГ§ Г¤Г«Гї ГЎГ«Г®ГЄГ  8*8
+  //срез для блока 8*8
   uint lr = l64 / DCTSIZE;
   uint lc = l64 % DCTSIZE;
-  //Г±Г°ГҐГ§ Г¤Г«Гї ГЎГ«Г®ГЄГ  16*4
+  //срез для блока 16*4
   uint lrn = l64 / 4;
   uint lcn = l64 % 4;
-  //ГЄГ Г§Г Г«Г®Г±Гј ГЎГ», ГЁГ­Г¤ГҐГЄГ± ГЇГҐГ°ГўГ®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ  ГўГ­ГіГІГ°ГЁ Г¤Г Г­Г­Г»Гµ Г®Г¤Г­Г®Г© Г«Г®ГЄГ Г«ГјГ­Г®Г© ГЈГ°ГіГЇГЇГ»
+  //казалось бы, индекс первого элемента внутри данных одной локальной группы
   uint gr = get_group_id(1)*LOSI;
   uint gc = get_group_id(0)*LOSI;
-  //ГўГ®ГІ ГЈГ¤ГҐ-ГІГ® ГІГіГІ Г­Г Г¤Г® Г§Г Г¤ГіГ¬Г ГІГјГ±Гї Г® Г±Г¬ГҐГ№ГҐГ­ГЁГЁ ГіГЄГ Г§Г ГІГҐГ«ГҐГ© Г­Г  Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г­Г»Г© ГёГ ГЈ
+  //вот где-то тут надо задуматься о смещении указателей на определенный шаг
 
   float ctblock1[DCTSIZE2];
 
@@ -240,7 +240,7 @@ __kernel void devultur_most(const __global uchar* pic, __global ushort* res, con
     float f[LOSI*LOSI];
   }tot;
 
-  //Г  ГІГіГІ - Г§Г ГЇГЁГ±Гј ГЁГ§ ГЈГ«Г®ГЎГ Г«ГјГ­Г®Г© ? ГЃГҐГ§ Г±Г®Г§Г­Г Г­ГЁГї Г¦ГҐ ГЇГЁГ±Г Г«Г®Г±Гј
+  //а тут - запись из глобальной ? Без сознания же писалось
   float4 tmptot1 = convert_float4(vload4(0, pic + (gr + lrn)*rsize + gc + lcn * 4 + offset));
   vstore4(tmptot1, 0, &tot.t[lrn*LOSI + lcn * 4]);
   barrier(CLK_LOCAL_MEM_FENCE);
@@ -257,7 +257,7 @@ __kernel void devultur_most(const __global uchar* pic, __global ushort* res, con
   vstore4((float4)(0), 0, &tot.f[lrn*LOSI + lcn * 4]);
   barrier(CLK_LOCAL_MEM_FENCE);
 
-  //3. Г§Г ГЇГЁГ±Гј-Г±ГіГ¬Г¬ГЁГ°Г®ГўГ Г­ГЁГҐ Г± ГЇГ°ГҐГЈГ°Г Г¤Г Г¬ГЁ ГЁ ГЄГ®Г­ГїГ¬ГЁ ГўГ­ГіГІГ°ГЁ Г«Г®ГЄГ Г«ГјГ­Г®Г© ГЈГ°ГіГЇГЇГ»
+  //3. запись-суммирование с преградами и конями внутри локальной группы
 #pragma unroll
   for (int y = 0; y < DCTSIZE; y++)
   {
@@ -268,8 +268,8 @@ __kernel void devultur_most(const __global uchar* pic, __global ushort* res, con
       barrier(CLK_LOCAL_MEM_FENCE);
     }
   }
-  //4. Г§Г ГЇГЁГ±Гј Г¤Г Г­Г­Г»Гµ Г ГЄГЄГіГ°Г ГІГ­Г® Гў ГЈГ«Г®ГЎ
-  //Г­ГҐГ¤Г®ГЇГЁГ±Гј - Г¤Г®ГЇГҐГёГЁ
+  //4. запись данных аккуратно в глоб
+  //недопись - допеши
   //ushort4 tmptotfin = vload4(0, res +(gr + lrn)*rsize + gc + lcn * 4 + offset);
   //vstore4(tmptotfin + convert_ushort4_sat_rtz(vload4(0, &fintot[lrn*LOSI+lcn*4])),0, res + (gr + lrn)*rsize + gc + lcn * 4 + offset);
 

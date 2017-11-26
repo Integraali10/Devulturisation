@@ -395,11 +395,11 @@ int read_JPEG_file(char * filename, u8 *pich, int *w,int *wreal, int *h, int*hre
   return 1;
 }
 
-#define INTELWEWANTDEBUG true //chose CPU
+#define INTELWEWANTDEBUG false //chose CPU
 #define INTELWEWANTSOMEANALYSIS true //just intel fun
 
 
-int main() {
+void main() {
   // reading cl file
   FILE * ptrFile = fopen("Devultur_cl.cl", "rb");
   // put pointer to the end of file
@@ -493,21 +493,25 @@ int main() {
   const char *strings = buff;
 
   cl_program program = clCreateProgramWithSource(context, 1, &strings, &result, &err1);
+  printf("ProgramCreationError = %i\n", err1);
   
   int err6;
-  if (INTELWEWANTDEBUG){
-    //before using this, change path into your absolute path to .cl file
-    clBuildProgram(program, 0, NULL, "-g -s \"C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl\"", NULL, NULL);
-    err6 = clBuildProgram(program, 1, &device, "", NULL, NULL);
-  }
-  else
-  {
-    clBuildProgram(program, 0, NULL, "", NULL, NULL);
-    err6 = clBuildProgram(program, 1, &device, "", NULL, NULL);
-  }
+  //if (INTELWEWANTDEBUG){
+  //  //before using this, change path into your absolute path to .cl file
+  //  clBuildProgram(program, 0, NULL, "-g -s C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl", NULL, NULL);
+  //}
+  //else
+  //{
+  //  clBuildProgram(program, 0, NULL, "", NULL, NULL);
+  //  
+  //}
+
+  clBuildProgram(program, 0, NULL, "", NULL, NULL);
+  clBuildProgram(program, 1, &device, NULL, NULL, NULL);
+  
   char buffer2[200480];
   clGetProgramBuildInfo(program, device, CL_PROGRAM_BUILD_LOG, sizeof(buffer2), buffer2, &len_prog);
-  printf("ProgramBuildInfo = %i \n%s \n", err6, buffer2);
+  printf("ProgramBuildInfo = %s \n", buffer2);
 
   //////////////////////////////////////////////////////////////////////
   //////FINDING KERNELS/////////////////////////////////////////////////
@@ -736,6 +740,5 @@ int main() {
   delete[] a;
   delete[] pich;
   delete[] resu;
-
-  return 0;
+  return;
 }

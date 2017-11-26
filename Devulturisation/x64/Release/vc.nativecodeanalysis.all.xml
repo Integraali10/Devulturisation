@@ -883,7 +883,7 @@
       <FILEPATH>c:\users\savva\source\repos\devulturisation\devulturisation\</FILEPATH>
       <FILENAME>devultur_hc.cpp</FILENAME>
       <LINE>402</LINE>
-      <COLUMN>8</COLUMN>
+      <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6262</DEFECTCODE>
     <DESCRIPTION>Function uses '293612' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
