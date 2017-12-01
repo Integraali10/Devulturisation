@@ -443,7 +443,7 @@ void main() {
   int errordevice = 1;
   if (INTELWEWANTDEBUG) {
     errordevice = clGetDeviceIDs(useplatfo, CL_DEVICE_TYPE_CPU, 3, &device, &devicesn);
-    //device = devices[0];
+    device = devices[0];
     printf("DEBUG MODE ON\n");
   }
   else if (errordevice!=CL_SUCCESS){
@@ -496,6 +496,7 @@ void main() {
   printf("ProgramCreationError = %i\n", err1);
   
   int err6;
+  
   //if (INTELWEWANTDEBUG){
   //  //before using this, change path into your absolute path to .cl file
   //  clBuildProgram(program, 0, NULL, "-g -s C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl", NULL, NULL);
