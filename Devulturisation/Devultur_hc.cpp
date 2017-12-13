@@ -443,7 +443,6 @@ void main() {
   int errordevice = 1;
   if (INTELWEWANTDEBUG) {
     errordevice = clGetDeviceIDs(useplatfo, CL_DEVICE_TYPE_CPU, 3, &device, &devicesn);
-    device = devices[0];
     printf("DEBUG MODE ON\n");
   }
   else if (errordevice!=CL_SUCCESS){
@@ -455,7 +454,7 @@ void main() {
   size_t bufferst[10240];
   cl_uint buf_uint;
   cl_ulong buf_ulong;
-  char buffer[100];
+  char buffer[1000];
   clGetDeviceInfo(device, CL_DEVICE_NAME, sizeof(buffer), buffer, NULL);
   printf(" DEVICE_NAME = %s\n", buffer);
   clGetDeviceInfo(device, CL_DEVICE_VENDOR, sizeof(buffer), buffer, NULL);
@@ -497,17 +496,16 @@ void main() {
   
   int err6;
   
-  //if (INTELWEWANTDEBUG){
-  //  //before using this, change path into your absolute path to .cl file
-  //  clBuildProgram(program, 0, NULL, "-g -s C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl", NULL, NULL);
+ // if (INTELWEWANTDEBUG){
+    //before using this, change path into your absolute path to .cl file
+    clBuildProgram(program, 0, NULL, "-g -s C:\\Users\\Savva\\Source\\Repos\\Devulturisation\\Devulturisation\\Devultur_cl.cl", NULL, NULL);
   //}
   //else
   //{
-  //  clBuildProgram(program, 0, NULL, "", NULL, NULL);
-  //  
+  //  clBuildProgram(program, 0, NULL, "", NULL, NULL);  
   //}
 
-  clBuildProgram(program, 0, NULL, "", NULL, NULL);
+  //clBuildProgram(program, 0, NULL, "", NULL, NULL);
   clBuildProgram(program, 1, &device, NULL, NULL, NULL);
   
   char buffer2[200480];
@@ -583,6 +581,7 @@ void main() {
   global[1] = 1;
   err = clEnqueueNDRangeKernel(command, kerneldevnull, 1, 0, global, NULL, NULL, NULL, &event);
   printf("Error NDRangeKernel division = %i\n", err);
+  clFinish(command);
   /////////////////////////////////////////////////////////////////////////
   /////MOST WANTED/////////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
@@ -593,14 +592,14 @@ void main() {
   global[1] = h / 16;
   err = clEnqueueNDRangeKernel(command, kernel, 2, 0, global, local, NULL, NULL, &event);
   printf("Error NDRangeKernel with off %i = %i\n", offset, err);
-
+  clFinish(command);
   ////offset 8 kernel 2
   offset = 8;
   clSetKernelArg(kernel, 5, sizeof(cl_int), &offset);
   global[0] = (w - 8) / 16 * DCTSIZE2;
   err = clEnqueueNDRangeKernel(command, kernel, 2, 0, global, local, NULL, NULL, &event);
   printf("Error NDRangeKernel  with off %i = %i\n", offset, err);
-
+  clFinish(command);
   ////offset 8*w kernel 3
   offset = 8 * w;
   clSetKernelArg(kernel, 5, sizeof(cl_int), &offset);
@@ -608,7 +607,7 @@ void main() {
   global[1] = (h - 8) / 16;
   err = clEnqueueNDRangeKernel(command, kernel, 2, 0, global, local, NULL, NULL, &event);
   printf("Error NDRangeKernel  with off %i = %i\n", offset, err);
-
+  clFinish(command);
   ////offset 8*w + 8 kernel 4
   offset = 8 * w + 8;
   clSetKernelArg(kernel, 5, sizeof(cl_int), &offset);
@@ -616,7 +615,7 @@ void main() {
   global[1] = (h - 8) / 16;
   err = clEnqueueNDRangeKernel(command, kernel, 2, 0, global, local, NULL, NULL, &event);
   printf("Error NDRangeKernel  with off %i = %i\n", offset, err);
-
+  clFinish(command);
   /////////////////////////////////////////////////////////////////////////
   /////Kernel's EDGE///////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
@@ -635,6 +634,7 @@ void main() {
   local[0] = 1;
   local[1] = 8;
   err = clEnqueueNDRangeKernel(command, kernelvert, 2, 0, global, local, NULL, NULL, &event);
+  clFinish(command);
   printf("Error NDRangeKernel vert with off %i = %i\n", offset, err);
   offset = w * 8 + w - 8;
   clSetKernelArg(kernelvert, 6, sizeof(cl_int), &offset);
@@ -643,6 +643,7 @@ void main() {
   local[0] = 1;
   local[1] = 8;
   err = clEnqueueNDRangeKernel(command, kernelvert, 2, 0, global, local, NULL, NULL, &event);
+  clFinish(command);
   printf("Error NDRangeKernel vert with off %i = %i\n", offset, err);
   ////horizontal kernels
   offset = (h - 8)*w;
@@ -658,6 +659,7 @@ void main() {
   local[0] = 8;
   local[1] = 1;
   err = clEnqueueNDRangeKernel(command, kernelhori, 2, 0, global, local, NULL, NULL, &event);
+  clFinish(command);
   printf("Error NDRangeKernel hori with off %i = %i\n", offset, err);
   offset = (h - 8)*w + 8;
   clSetKernelArg(kernelhori, 6, sizeof(cl_int), &offset);
@@ -666,6 +668,7 @@ void main() {
   local[0] = 8;
   local[1] = 1;
   err = clEnqueueNDRangeKernel(command, kernelhori, 2, 0, global, local, NULL, NULL, &event);
+  clFinish(command);
   printf("Error NDRangeKernel hori with off %i = %i\n", offset, err);
   ////kernel op de hoek
   offset = (h - 8)*w + w - 8;
@@ -684,7 +687,7 @@ void main() {
   //подумоть, а нужна ли так локальная группа
   err = clEnqueueNDRangeKernel(command, kernelnook, 2, 0, global, local, NULL, NULL, &event);
   printf("Error NDRangeKernel op de hoek met off %i = %i\n", offset, err);
-
+  clFinish(command);
   /////////////////////////////////////////////////////////////////////////
   /////Pichoy Division/////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
@@ -695,12 +698,12 @@ void main() {
   global[1] = h;
   err = clEnqueueNDRangeKernel(command, kerneldivi, 2, 0, global, NULL, NULL, NULL, &event);
   printf("Error NDRangeKernel division = %i\n", err);
-
+  clFinish(command);
   /////////////////////////////////////////////////////////////////////////
   /////READING BUFFER//////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
-  clEnqueueReadBuffer(command, ou_resu, CL_TRUE, 0, sizeof(unsigned short) * w * h, resu, 0, NULL, NULL);
-
+  err = clEnqueueReadBuffer(command, ou_resu, CL_TRUE, 0, sizeof(unsigned short) * w * h, resu, 0, NULL, NULL);
+  printf("Error ReadBuff ouresu = %i\n", err);
   //clGetEventProfilingInfo(event, CL_PROFILING_COMMAND_START, sizeof(time_start), &time_start, NULL);
   //clGetEventProfilingInfo(event, CL_PROFILING_COMMAND_END, sizeof(time_end), &time_end, NULL);
   //printf("TIME = %llu\n", (time_end - time_start));
